@@ -4,6 +4,7 @@ import {
   MDBContainer
 } from "mdbreact";
 import './index.css'
+import style from '../../../node_modules/mdbootstrap/css'
 
 const RoomPage = () => {
   return (
