@@ -1,0 +1,39 @@
+{
+  "name": "daniteatime",
+  "version": "0.1.0",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "mdbootstrap": "^4.7.3",
+    "mdbreact": "^4.11.0",
+    "mongoose": "^5.4.6",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-scripts": "2.1.5",
+    "typescript": "^3.3.3333"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanKloer/daniteatime.git"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "css-loader": "^2.1.0"
+  }
+}
