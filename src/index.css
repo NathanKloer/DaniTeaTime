@@ -1,34 +1,15 @@
-html,
-    body,
-    header,
-    .landingpic {
-      height: 60vh;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    @media (max-width: 740px) {
-      html,
-      body,
-      header,
-      .carousel {
-        height: 100vh;
-      }
-    }
-
-    @media (min-width: 800px) and (max-width: 850px) {
-      html,
-      body,
-      header,
-      .carousel {
-        height: 100vh;
-      }
-    }
-
-    @media (min-width: 800px) and (max-width: 850px) {
-      .navbar:not(.top-nav-collapse) {
-        background: #1C2331 !important;
-      }
-    }
+body, html {
+  height: 100%;
+}
+.bg {
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+  height: 60vh;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.roomcontainer {
+      margin: auto;
+      max-width: 60vw;;
+      padding: 10px;
+}

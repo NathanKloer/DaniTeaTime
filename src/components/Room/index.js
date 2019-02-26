@@ -1,30 +1,33 @@
 import React from "react";
+import { Route } from 'react-router-dom'
 import {
   // MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, 
   MDBContainer
 } from "mdbreact";
-import './index.css'
-import style from '../../../node_modules/mdbootstrap/css'
+import { HuntressPage } from "../index.js";
+import "./index.css"
 
 const RoomPage = () => {
   return (
     <MDBContainer>
       <div className="roomcontainer">
-        <div className="bg">
-          <div class="mask rgba-black-light d-flex justify-content-center align-items-end">
-            <div class="hdrdetails text-center white-text mx-5 wow fadeIn">
-              <h1 class="mb-4">
+        <div className="bg-rage">
+          <div className="mask rgba-black-light d-flex justify-content-center align-items-end">
+            <div className="hdrdetails text-center white-text mx-5 wow fadeIn">
+              <h1 className="mb-4">
                 <strong>Rage's Library of Well Reading</strong>
               </h1>
               <p>
                 <strong>Hello and Welcome to my library.</strong>
               </p>
-              <br />
-              <br />
             </div>
           </div>
         </div>
         <p>hello world</p>
+        {/* <Route exact path="/" component={Home}/> */}
+        <Route path="/scratchingpost" component={HuntressPage}/>
+        {/* <Route path="/topics" component={Topics}/> */}
+        
         {/* <MDBCarousel activeItem={1} length={3} showControls={true} showIndicators={true} className="z-depth-1">
         <MDBCarouselInner>
           <MDBCarouselItem itemId="1">
