@@ -13,7 +13,22 @@ body, html {
     height: 60vh;
     background-position: center 0;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;   
+}
+.header1 {
+    font-family:"Times New Roman";
+    font-weight:600;
+    font-variant:small-caps;
+    padding:15px;
+    margin:15px;
+}
+.testStyle {
+    color:#ff2200;
+    font-size:100px;
+}
+
+.testStyle a:hover {
+    color:#00ff00;
 }
 .roomcontainer {
         margin: auto;
