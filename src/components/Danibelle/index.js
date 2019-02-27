@@ -6,7 +6,7 @@ import {
 import { Bead, Library, Tinfoil, Letsplay } from "../Images/index.js"
 import "./index.css"
 
-const RoomPage = () => {
+const DaniPage = () => {
 
   return (
     <MDBContainer id="top">
@@ -72,4 +72,4 @@ const RoomPage = () => {
   );
 }
 
-export default RoomPage;
+export default DaniPage;
