@@ -2,6 +2,7 @@ import React from "react";
 import './index.css'
 import RoomPage from "./components/Room";
 import HuntressPage from "./components/Huntress"
+import DaniPage from "./components/Danibelle"
 import NavbarPage from "./components/Navbar"
 import {
     BrowserRouter as Router,
@@ -67,7 +68,8 @@ const Home = () => (
             <Switch>
               {/* Route just registers which component should displayed depending on the url path*/}
               <Route exact path="/library" component={RoomPage} />
-              <Route exact path="/scratchingpost" component={HuntressPage} />
+              <Route exact path="/scratching_post" component={HuntressPage} />
+              <Route exact path="/tea_palace" component={HuntressPage} />
             </Switch>
           </div>
         </Router>

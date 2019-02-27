@@ -1,12 +1,21 @@
 body, html {
     height: 100%;
+    scroll-behavior: smooth;
+}
+.rage-extras {
+    margin: auto;
+    max-width: 30vw;;
+    padding: 10px;
 }
 .bg-rage {
-    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
-    height: 60vh;
-    background-position: center 0;
-    background-repeat: no-repeat;
-    background-size: cover;
+    border-width: 10px;
+    border-style: solid;
+    background-color: black;
+}
+.roomcontainer-rage {
+    margin: auto;
+    max-width: 60vw;;
+    padding: 10px;
 }
 .bg-huntress {
     background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
@@ -14,9 +23,8 @@ body, html {
     background-position: center 0;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
-.roomcontainer {
-        margin: auto;
-        max-width: 60vw;;
-        padding: 10px;
+#library {
+    max-width: 70px;
 }
