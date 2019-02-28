@@ -30,10 +30,10 @@ class NavbarPage extends Component {
               <MDBNavLink to="/library">Rage's Library</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/scratchingpost">Huntress's Scratching Post</MDBNavLink>
+              <MDBNavLink to="/scratching_post">Huntress's Scratching Post</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/teapalace">Dani's Tea Palace</MDBNavLink>
+              <MDBNavLink to="/tea_palace">Dani's Tea Palace</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
               <MDBDropdown>
